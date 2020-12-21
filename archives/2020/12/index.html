@@ -40,7 +40,7 @@
 
 
 
-<meta name="generator" content="Hexo 5.3.0"><script src="/assets/js/DPlayer.min.js"></script></head>
+<meta name="generator" content="Hexo 5.3.0"></head>
 <body
   
     class="monochrome"
@@ -84,21 +84,21 @@
             
               <li class="category-list-container">
                 <a href="javascript:;">Category</a>
-                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Science-and-Technology-Competition/">Science and Technology Competition</a><span class="category-list-count">2</span></li></ul>
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Research/">Research</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Science-and-Technology-Competition/">Science and Technology Competition</a><span class="category-list-count">2</span></li></ul>
               </li>
             
           
             
               <li class="tag-list-container">
                 <a href="javascript:;">Tag</a>
-                <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Data-Analysis/" rel="tag">Data Analysis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Robots/" rel="tag">Robots</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Simulation-MATLAB/" rel="tag">Simulation, MATLAB</a><span class="tag-list-count">1</span></li></ul>
+                <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Data-Analysis/" rel="tag">Data Analysis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Image-Processing/" rel="tag">Image Processing</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Neural-Network/" rel="tag">Neural Network</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Robots/" rel="tag">Robots</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Simulation-MATLAB/" rel="tag">Simulation, MATLAB</a><span class="tag-list-count">1</span></li></ul>
               </li>
             
           
             
               <li class="archive-list-container">
                 <a href="javascript:;">Archive</a>
-                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">2017</a><span class="archive-list-count">1</span></li></ul>
+                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">2017</a><span class="archive-list-count">4</span></li></ul>
               </li>
             
           
@@ -162,281 +162,6 @@
           <h1><a href="/archives/2020" class="archive-year">2020</a></h1>
         </div>
         <div class="post-list">
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2020/12/21/surface3d/" >
-  Surface Three-Dimensional Scene Acquisition and Establishment
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2020/12/21/surface3d/"><span class="article-date">
-  2020-12-21
-</span>
-</a>
-        
-
-        
-
-      </div>
-      <div class="article-entry">
-        
-          <blockquote>
-<p>Binocular stereo vision is the research focus in the field of computer vision. Usually, two identical cameras are used to obtain two digital images of the surrounding objects from different angles, and the 3D geometric information of the objects is recovered based on the parallax principle to reconstruct the 3D shape and position of the surrounding objects.<br>Based on the binocular stereo system, this project studies the calibration and calibration, salient object extraction, stereo matching and reconstruction technology of binocular stereo camera. To obtain meaningful 3D images of ground scene provides a new technical means for virtual reality, augmented reality and other consumer electronic products.</p>
-</blockquote>
-<p>First Step</p>
-<blockquote>
-<p>Research on calibration of infrared binocular camera， epipolar rectification and its improvement</p>
-</blockquote>
-<p>Second Step</p>
-<blockquote>
-<p>Feature based stereo matching</p>
-</blockquote>
-<p>Third Step</p>
-<blockquote>
-<p>Construction and experiment of acquisition and establishment system of ground 3D scene</p>
-</blockquote>
-<p>Flow Chart</p>
-<img src="/2020/12/21/surface3d/flowchart.jpg" class="" title="This is an example image">
-
-<p>Calibration Method</p>
-<blockquote>
-<p>Zhang’s classical calibration method uses two-dimensional checkerboard as the calibration object, which simplifies the calibration process, reduces the cost of camera calibration, but also maintains high calibration accuracy. With its advantages of high precision and good flexibility, it is still the most common calibration method in camera calibration.</p>
-</blockquote>
-<blockquote>
-<p>Epipolar rectification can be carried out with camera calibration and without camera calibration. Due to the existence of a large number of uncalibrated image pairs in stereo vision, it is difficult to match stereoscopically directly.</p>
-</blockquote>
-<blockquote>
-<p>The self calibration method gets rid of the limitation of the calibration board, so it is more flexible and practical. However, the calibration accuracy is far different from the plane calibration method, which is the biggest restriction of its practical application.</p>
-</blockquote>
-<blockquote>
-<p>In this research, we choosed epipolar rectification as the criterion of binocular camera optical axis parallel.</p>
-</blockquote>
-<p>Stereo Matching</p>
-<blockquote>
-<p>SIFT algorithm for feature points</p>
-</blockquote>
-<img src="/2020/12/21/surface3d/SIFT.png" class="" title="This is an example image">
-
-<p>Constraints in stereo matching:</p>
-<blockquote>
-<p>{1.Epipolar constraints.<br>2.Uniqueness constraint.<br>3.Similarity constraints:<br>4.Parallax continuity constraint.<br>5.Order consistency constraint.<br>6.Parallax constraint.<br>7.Left and right consistency constraints}</p>
-</blockquote>
-<blockquote>
-<p>Improved k-nearest neighbor mismatching removal method</p>
-</blockquote>
-<p>Acquisition and Modeling of Ground 3D Scene</p>
-<img src="/2020/12/21/surface3d/BSV.png" class="" title="This is an example image">
-
-<blockquote>
-<p>The principle of three-dimensional reconstruction of binocular stereo vision comes from the biological binocular vision system. The specific process is as follows: select two images of the same scene and different perspectives, and use the two-dimensional information to recover the three-dimensional information of the visible surface of the scene. The picture shows the principle model of binocular stereo vision in ideal state.</p>
-</blockquote>
-<p>Three-Dimensional Reconstruction</p>
-<blockquote>
-<p>Sparse Reconstruction（Visual SFM）–&gt;&gt;Dense Point Cloud Reconstruction. (PMVS/CMVS)–&gt;&gt;Poisson Algorithm for Surface Reconstruction</p>
-</blockquote>
-<p>##Hardware System</p>
-<img src="/2020/12/21/surface3d/system.png" class="" title="Hardware System">
-
-<p>##Software System<br>The 3D reconstruction algorithm was completed in visual SFM platform Dr. Chang Wu loading PMVs / CMVs environment Dr. Yasutaka Furukawa.</p>
-<p>The surface reconstruction of Poisson algorithm is completed by meshlab.</p>
-<img src="/2020/12/21/surface3d/software.png" class="" title="Software System">
-
-
-<p>Importing Binocular Images</p>
-<img src="/2020/12/21/surface3d/pic2.png" class="" title="Software System">
-
-<p>Sparse Reconstruction（Visual SFM）and Dense Point Cloud Reconstruction<br>(PMVS/CMVS)</p>
-<img src="/2020/12/21/surface3d/pic3.png" class="" title="Software System">
-
-<p>Poisson Algorithm for Surface Reconstruction(meshlab)</p>
-<img src="/2020/12/21/surface3d/pic4.png" class="" title="Software System">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2020/12/21/bs3/" >
-  National Undergraduate Electronic Design Competition
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2020/12/21/bs3/"><span class="article-date">
-  2020-12-21
-</span>
-</a>
-        
-	<span class="article-category tagcloud">
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Science-and-Technology-Competition/">Science and Technology Competition</a></li></ul>
-	</span>
-
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Robots/" rel="tag">Robots</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>Competition Qualification Selection</p>
-<blockquote>
-<p>The school of electronic engineering and optoelectronic technology(EO) of Nanjing University of Science and Technology(NJUST) selected the students.</p>
-</blockquote>
-<blockquote>
-<p>The title of the selection is robot car which can identify and avoid obstacles. We use the embedded development board based on STM32-M4, combined with linear motor car and monocular camera to complete this project. The image collected by the camera is divided into two parts. The upper part is used to identify obstacles, and the lower part is binarized and used for track tracking. The weight algorithm is used to identify the steering after orbit. Compared with PID algorithm, the algorithm is faster, and it is suitable to command the robot to complete the given action. The linear motor is controlled by PWM wave output of the development board. Finally, in the control group of the college’s trials, our team achieved the best results.</p>
-</blockquote>
-<img src="/2020/12/21/bs3/diansai1.jpg" class="" title="This is an example image">
-
-<p>Training Stage</p>
-<blockquote>
-<p>Under the guidance of Lecturer Sun, we studied and controlled the four axis unmanned aerial vehicle (UAV). The status information of UAV is obtained by detecting gravity sensor and acceleration sensor through stm32m4 integrated development board. The PID algorithm is used to calculate the action of UAV. The motor of UAV is driven by PWM wave to complete the specified action.</p>
-</blockquote>
-<img src="/2020/12/21/bs3/diansai2.jpg" class="" title="This is an example image">
-
-<p>Competition</p>
-<blockquote>
-<p>The titles we participate in are based on the Ball-Plate-System. We are asked to control the ball on the control board to reach the designated position through the three-dimensional state of the control board.<br>We loaded the cardan shaft in the center of the board and controlled the steering of the board in X-Z, Y-Z through two steering servo motors. This device successfully controlled the movement of the ball on the board. By controlling the coefficient of PID algorithm, the precise control of the ball is realized. In addition, by measuring the flatness of the plate, the stable state of the ball is adjusted in many uneven areas, so that the ball can achieve the steady state of zero speed at the target point.</p>
-</blockquote>
-<img src="/2020/12/21/bs3/diansai3.jpg" class="" title="This is an example image">
-
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://www.bilibili.com/video/BV1dK4y1L7cw","pic":"./qun.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
-
-<iframe src="//player.bilibili.com/player.html?aid=885723959&amp;cid=269378996&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450">
-</iframe>
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2020/12/21/sido/" >
-  Digital Controller of a Single-Inductor, Dual-Output Switch Converter
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2020/12/21/sido/"><span class="article-date">
-  2020-12-21
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Simulation-MATLAB/" rel="tag">Simulation, MATLAB</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>A digital controller for single-inductor dual-output switching converter with low cross regulation</p>
-<p>Supervisor of this research is Lecture <label style="color:red">Daying Sun</label>.</p>
-<p>Circuit Structure</p>
-<blockquote>
-<p>The whole structure of this research uses the digital controller’s SIDO buck converter. A/D converter(ADC) was used to sample the output voltage and inductance current of the two output branches and several PWM driven transistors were used as switches to control the output voltage. The digital duty cycle of each switch cycle is calculated by digital control algorithm, and the final duty cycle signal of switch tube is converted by DPWM module.</p>
-</blockquote>
-<img src="/2020/12/21/sido/sido1.jpg" class="" title="This is an example image">
-
-<p>Output and Steady State</p>
-<blockquote>
-<p>The waveform of output voltage, inductance current and duty cycle signal is shown in the figure.</p>
-</blockquote>
-<img src="/2020/12/21/sido/sido2.jpg" class="" title="This is an example image">
-
-<blockquote>
-<p>During each period, when one output branch is charged, the other output branch will be discharged. By calculating the output current and inductance current in each cycle, the relationship between each voltage output capacitor and inductance is found.</p>
-</blockquote>
-<blockquote>
-<p>When any branch of the SIDO converter reaches steady state, the charging capacity of the output capacitor must be equal to that of the output capacitor. In order to meet the steady-state condition, the initial inductance current and duty cycle can be changed in a certain range at the beginning of each cycle. For each output branch, it has a specific initial inductance current and duty cycle range to meet the steady-state conditions. At the same time, the SIDO converter requires two output branches to reach steady state in steady state, and the terminal charging inductance current of one branch is also the initial charging inductance current of the other branch. This is the intersection of the steady-state range of the two branches, which is the steady state of the SIDO converter.</p>
-</blockquote>
-<img src="/2020/12/21/sido/sido3.jpg" class="" title="This is an example image">
-
-
-<p>The Predictive Control Method</p>
-<blockquote>
-<p>For SIDO converter, cross regulation is inevitable in the transient process. When the load condition of one output branch changes, the steady-state point of the SIDO converter will also change. The new and old stability points are shown in the figure.</p>
-</blockquote>
-<img src="/2020/12/21/sido/sido4.jpg" class="" title="This is an example image">
-
-<blockquote>
-<p>In the process of transition from the old stable point to the new one, if the relationship between the inductance current and the duty cycle of the invariant output branch is always as shown in the figure, the cross regulation of the two output branches can be effectively reduced to the minimum. In order to reduce cross regulation, a new steady state point must be determined. At the beginning of each switching cycle, the output voltage, inductance current and load current are sampled.</p>
-</blockquote>
-<p>Simulation Verification of the SIDO Converter Resistance to External Interference</p>
-<blockquote>
-<p>Therefore, the inductance current can be predicted. The SIDO buck switching converter with the proposed digital controller has been simulated via the Matlab/Simulink environment.</p>
-</blockquote>
-<img src="/2020/12/21/sido/sido5.jpg" class="" title="This is an example image">
-
-<blockquote>
-<p>The figure shows the output voltage, output current and inductance current of the two output branches of the SIDO converter. When the output load current io2 of the second output branch changes, it is observed that the maximum voltage fluctuation of the first output branch is 11mv.</p>
-</blockquote>
-<p>Conclusion</p>
-<blockquote>
-<p>Simulation results show that the SIDO buck converter has good performance in suppressing cross regulation of output voltage.</p>
-</blockquote>
-<a href="/2020/12/21/sido/sun.pdf" title="The pdf file of this publication">The pdf file of this publication</a>
-
-
-
-	<div class="row">
-    <embed src="./sun.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-
-        
-      </div>
-    </div>
-
-  
-
-  
-  
     
   
 

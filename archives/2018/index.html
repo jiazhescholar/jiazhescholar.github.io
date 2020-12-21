@@ -8,13 +8,13 @@
 
 <title>
   
-    Archive: 2020
+    Archive: 2018
   
 </title>
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Jiazhe&#39;s Blog">
-<meta property="og:url" content="https://jiazhescholar.github.io/archives/2020/index.html">
+<meta property="og:url" content="https://jiazhescholar.github.io/archives/2018/index.html">
 <meta property="og:site_name" content="Jiazhe&#39;s Blog">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Jiazhe Xu">
@@ -159,7 +159,7 @@
       
       <section class="archives-wrap">
         <div class="archive-year-wrap">
-          <h1><a href="/archives/2020" class="archive-year">2020</a></h1>
+          <h1><a href="/archives/2018" class="archive-year">2018</a></h1>
         </div>
         <div class="post-list">
     
@@ -167,34 +167,60 @@
 
     <div class="post-list-item article">
       <h3 class="article-header">
-        <a href="/2020/12/20/hello-world/" >
-  Hello World
+        <a href="/2018/06/02/nnhc/" >
+  Algorithm System Modeling of Neural Network Hardware Acceleration System
 </a>
 
       </h3>
       
 
       <div class="article-info">
-        <a href="/2020/12/20/hello-world/"><span class="article-date">
-  2020-12-20
+        <a href="/2018/06/02/nnhc/"><span class="article-date">
+  2018-06-02
 </span>
 </a>
         
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Research/">Research</a></li></ul>
+	</span>
+
 
         
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Neural-Network/" rel="tag">Neural Network</a></li></ul>
+	</span>
+
 
       </div>
       <div class="article-entry">
         
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+          <p>Abstract</p>
+<blockquote>
+<p>Convolutional Neural Network (CNN) is a pattern recognition method combining artificial neural network and deep learning theory. CNN’s parallel architecture is the foundation and core of CNN’s overall computing architecture. Field programmable gate array (FPGA) can give full play to the parallel characteristics of convolutional neural network. The neural network is realized by using the special multiplier and digital signal processing unit in FPGA. It can perform a large number of multiplication and addition operations in the algorithm in high parallel. Convolution neural network is composed of convolution layer, pooling layer and other layers with different functions, and convolution operation often consumes a lot of time. FPGA sharing this part of resources can effectively speed up the forward propagation and back-propagation process of convolutional neural network.</p>
+</blockquote>
+<blockquote>
+<p>Python, a scripting language, makes project development easier. The PYNQ-Z1 from Xilinx Inc. integrates the FPGA and Python ARM, enabling fully embedded neural networks to be implemented.</p>
+</blockquote>
+<blockquote>
+<p>In this research, FPGA is used as the hardware platform, and the speed of image classification by convolutional neural network is improved by 8.2 times compared with the software processing method. The hardware acceleration of convolutional neural network is well realized. This research also uses WindowsPC as a client and PYNQ-Z1 as a server to build the entire neural network system. The application program on the Windows PC side and the server program on the PYNQ-Z1 side were implemented. Combined with the PYNQ-Z1 neural network and the FPGA parallel accelerator of the same research group, a complete set of operational neural network systems was realized.</p>
+</blockquote>
+<p>Hardware CNN Accelerator</p>
+<blockquote>
+<p>Traditional convolutional neural networks are constructed by many different network layers, including convolution layer, pooling layer, activation layer and full connection layer. The convolution layer realizes the two-dimensional convolution of the image. The pooling layer can aggregate the features and reduce the amount of computation. The activation layer uses the activation function to map the input data between 0 and 1. The full connection layer is responsible for mapping the learned feature map to the output sample space. The structure of convolution neural network is shown in the figure below</p>
+</blockquote>
+<img src="/2018/06/02/nnhc/kuangjia.jpg" class="" title="This is an example image">
+
+<blockquote>
+<p>Traditional FPGA design builds module RTL model manually. Although RTL model can provide the best performance with optimal resources, it takes a lot of time to write RTL. At the same time, large-scale RTL model also has low readability and high maintenance difficulty.</p>
+</blockquote>
+<blockquote>
+<p>Vivado HLS high level synthesis tool is based on the IP core design of FPGA. The tool can create and synthesize IP core through C, C + + and system C, and does not need to create RTL model manually. It also supports ise and vivado design environment. It greatly reduces the design time and development difficulty.</p>
+</blockquote>
+
+
+<blockquote>
+<p>Therefore, in this design, we use high-level synthesis tools based on vivado HLS and use C language to design the hardware circuit.</p>
+</blockquote>
 
         
       </div>

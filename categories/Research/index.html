@@ -8,13 +8,13 @@
 
 <title>
   
-    Tag: Simulation, MATLAB
+    Category: Research
   
 </title>
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Jiazhe&#39;s Blog">
-<meta property="og:url" content="https://jiazhescholar.github.io/tags/Simulation-MATLAB/index.html">
+<meta property="og:url" content="https://jiazhescholar.github.io/categories/Research/index.html">
 <meta property="og:site_name" content="Jiazhe&#39;s Blog">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Jiazhe Xu">
@@ -150,8 +150,206 @@
       
         <div style="max-width: 1000px">
       
-          <h1>Simulation, MATLAB</h1>
+          <h1>Research</h1>
 
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/06/02/nnhc/" >
+  Algorithm System Modeling of Neural Network Hardware Acceleration System
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/06/02/nnhc/"><span class="article-date">
+  2018-06-02
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Research/">Research</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Neural-Network/" rel="tag">Neural Network</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <p>Abstract</p>
+<blockquote>
+<p>Convolutional Neural Network (CNN) is a pattern recognition method combining artificial neural network and deep learning theory. CNN’s parallel architecture is the foundation and core of CNN’s overall computing architecture. Field programmable gate array (FPGA) can give full play to the parallel characteristics of convolutional neural network. The neural network is realized by using the special multiplier and digital signal processing unit in FPGA. It can perform a large number of multiplication and addition operations in the algorithm in high parallel. Convolution neural network is composed of convolution layer, pooling layer and other layers with different functions, and convolution operation often consumes a lot of time. FPGA sharing this part of resources can effectively speed up the forward propagation and back-propagation process of convolutional neural network.</p>
+</blockquote>
+<blockquote>
+<p>Python, a scripting language, makes project development easier. The PYNQ-Z1 from Xilinx Inc. integrates the FPGA and Python ARM, enabling fully embedded neural networks to be implemented.</p>
+</blockquote>
+<blockquote>
+<p>In this research, FPGA is used as the hardware platform, and the speed of image classification by convolutional neural network is improved by 8.2 times compared with the software processing method. The hardware acceleration of convolutional neural network is well realized. This research also uses WindowsPC as a client and PYNQ-Z1 as a server to build the entire neural network system. The application program on the Windows PC side and the server program on the PYNQ-Z1 side were implemented. Combined with the PYNQ-Z1 neural network and the FPGA parallel accelerator of the same research group, a complete set of operational neural network systems was realized.</p>
+</blockquote>
+<p>Hardware CNN Accelerator</p>
+<blockquote>
+<p>Traditional convolutional neural networks are constructed by many different network layers, including convolution layer, pooling layer, activation layer and full connection layer. The convolution layer realizes the two-dimensional convolution of the image. The pooling layer can aggregate the features and reduce the amount of computation. The activation layer uses the activation function to map the input data between 0 and 1. The full connection layer is responsible for mapping the learned feature map to the output sample space. The structure of convolution neural network is shown in the figure below</p>
+</blockquote>
+<img src="/2018/06/02/nnhc/kuangjia.jpg" class="" title="This is an example image">
+
+<blockquote>
+<p>Traditional FPGA design builds module RTL model manually. Although RTL model can provide the best performance with optimal resources, it takes a lot of time to write RTL. At the same time, large-scale RTL model also has low readability and high maintenance difficulty.</p>
+</blockquote>
+<blockquote>
+<p>Vivado HLS high level synthesis tool is based on the IP core design of FPGA. The tool can create and synthesize IP core through C, C + + and system C, and does not need to create RTL model manually. It also supports ise and vivado design environment. It greatly reduces the design time and development difficulty.</p>
+</blockquote>
+
+
+<blockquote>
+<p>Therefore, in this design, we use high-level synthesis tools based on vivado HLS and use C language to design the hardware circuit.</p>
+</blockquote>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2017/09/21/surface3d/" >
+  Surface Three-Dimensional Scene Acquisition and Establishment
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2017/09/21/surface3d/"><span class="article-date">
+  2017-09-21
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Research/">Research</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Image-Processing/" rel="tag">Image Processing</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <blockquote>
+<p>Binocular stereo vision is the research focus in the field of computer vision. Usually, two identical cameras are used to obtain two digital images of the surrounding objects from different angles, and the 3D geometric information of the objects is recovered based on the parallax principle to reconstruct the 3D shape and position of the surrounding objects.<br>Based on the binocular stereo system, this project studies the calibration and calibration, salient object extraction, stereo matching and reconstruction technology of binocular stereo camera. To obtain meaningful 3D images of ground scene provides a new technical means for virtual reality, augmented reality and other consumer electronic products.</p>
+</blockquote>
+<p>First Step</p>
+<blockquote>
+<p>Research on calibration of infrared binocular camera， epipolar rectification and its improvement</p>
+</blockquote>
+<p>Second Step</p>
+<blockquote>
+<p>Feature based stereo matching</p>
+</blockquote>
+<p>Third Step</p>
+<blockquote>
+<p>Construction and experiment of acquisition and establishment system of ground 3D scene</p>
+</blockquote>
+<p>Flow Chart</p>
+<img src="/2017/09/21/surface3d/flowchart.jpg" class="" title="This is an example image">
+
+<p>Calibration Method</p>
+<blockquote>
+<p>Zhang’s classical calibration method uses two-dimensional checkerboard as the calibration object, which simplifies the calibration process, reduces the cost of camera calibration, but also maintains high calibration accuracy. With its advantages of high precision and good flexibility, it is still the most common calibration method in camera calibration.</p>
+</blockquote>
+<blockquote>
+<p>Epipolar rectification can be carried out with camera calibration and without camera calibration. Due to the existence of a large number of uncalibrated image pairs in stereo vision, it is difficult to match stereoscopically directly.</p>
+</blockquote>
+<blockquote>
+<p>The self calibration method gets rid of the limitation of the calibration board, so it is more flexible and practical. However, the calibration accuracy is far different from the plane calibration method, which is the biggest restriction of its practical application.</p>
+</blockquote>
+<blockquote>
+<p>In this research, we choosed epipolar rectification as the criterion of binocular camera optical axis parallel.</p>
+</blockquote>
+<p>Stereo Matching</p>
+<blockquote>
+<p>SIFT algorithm for feature points</p>
+</blockquote>
+<img src="/2017/09/21/surface3d/SIFT.png" class="" title="This is an example image">
+
+<p>Constraints in stereo matching:</p>
+<blockquote>
+<p>{1.Epipolar constraints.<br>2.Uniqueness constraint.<br>3.Similarity constraints:<br>4.Parallax continuity constraint.<br>5.Order consistency constraint.<br>6.Parallax constraint.<br>7.Left and right consistency constraints}</p>
+</blockquote>
+<blockquote>
+<p>Improved k-nearest neighbor mismatching removal method</p>
+</blockquote>
+<p>Acquisition and Modeling of Ground 3D Scene</p>
+<img src="/2017/09/21/surface3d/BSV.png" class="" title="This is an example image">
+
+<blockquote>
+<p>The principle of three-dimensional reconstruction of binocular stereo vision comes from the biological binocular vision system. The specific process is as follows: select two images of the same scene and different perspectives, and use the two-dimensional information to recover the three-dimensional information of the visible surface of the scene. The picture shows the principle model of binocular stereo vision in ideal state.</p>
+</blockquote>
+<p>Three-Dimensional Reconstruction</p>
+<blockquote>
+<p>Sparse Reconstruction（Visual SFM）–&gt;&gt;Dense Point Cloud Reconstruction. (PMVS/CMVS)–&gt;&gt;Poisson Algorithm for Surface Reconstruction</p>
+</blockquote>
+<p>##Hardware System</p>
+<img src="/2017/09/21/surface3d/system.png" class="" title="Hardware System">
+
+<p>##Software System<br>The 3D reconstruction algorithm was completed in visual SFM platform Dr. Chang Wu loading PMVs / CMVs environment Dr. Yasutaka Furukawa.</p>
+<p>The surface reconstruction of Poisson algorithm is completed by meshlab.</p>
+<img src="/2017/09/21/surface3d/software.png" class="" title="Software System">
+
+
+<p>Importing Binocular Images</p>
+<img src="/2017/09/21/surface3d/pic2.png" class="" title="Software System">
+
+<p>Sparse Reconstruction（Visual SFM）and Dense Point Cloud Reconstruction<br>(PMVS/CMVS)</p>
+<img src="/2017/09/21/surface3d/pic3.png" class="" title="Software System">
+
+<p>Poisson Algorithm for Surface Reconstruction(meshlab)</p>
+<img src="/2017/09/21/surface3d/pic4.png" class="" title="Software System">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
 
   
   
