@@ -3,6 +3,117 @@
     
     
     <entry>
+        <title><![CDATA[Java集合]]></title>
+        <url>https://jiazhescholar.github.io/2021/05/12/java002/</url>
+        <content type="html"><![CDATA[<h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1>]]></content>
+        
+        <categories>
+            
+            <category> 编程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+        <title><![CDATA[JAVA多线程]]></title>
+        <url>https://jiazhescholar.github.io/2021/05/08/java005/</url>
+        <content type="html"><![CDATA[<h2 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h2><h3 id="多任务"><a href="#多任务" class="headerlink" title="多任务"></a>多任务</h3><p>看起来同时做很多件事，实际上同一时间只做一件事，将多件事拆散安排在一条时间轴上。</p>
+<h3 id="多线程-1"><a href="#多线程-1" class="headerlink" title="多线程"></a>多线程</h3><p>增加并发数量，即分配资源后，使得多个进程(运行中的程序)同时进行。</p>
+<p>真正的多线程是多核CPU带来的，模拟的多线程是高速CPU快速切换带来的。</p>
+<ol>
+<li><p>线程是独立的执行过程；</p>
+</li>
+<li><p>main()为主线程，是系统的入口；</p>
+</li>
+<li><p>在一个进程中，如果开辟了多个进程，线程的运行由调度器安排调度。调度器是与操作系统相关的，先后顺序是不能人为干预的；</p>
+</li>
+<li><p>对同一份资源进行操作时，会存在资源抢夺的问题，需要加入并发控制；</p>
+</li>
+<li><p>线程会带来额外的开销，如CPU的调度时间，并控制开销；</p>
+</li>
+<li><p>每个线程在自己的工作内存交互，内存控制不当会造成数据不一致。</p>
+</li>
+</ol>
+<h3 id="线程的创建"><a href="#线程的创建" class="headerlink" title="线程的创建"></a>线程的创建</h3><p>方式：</p>
+<ol>
+<li>集成Thread类</li>
+<li>实现Runnable接口</li>
+<li>实现Cellable接口</li>
+</ol>
+]]></content>
+        
+        <categories>
+            
+            <category> 编程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+        <title><![CDATA[Java基础]]></title>
+        <url>https://jiazhescholar.github.io/2021/05/07/java001/</url>
+        <content type="html"><![CDATA[<p>在kuangstudy.com学习Java系列课程的课程记录。本文为Java基础的查漏补缺。</p>
+<a id="more"></a>  
+
+
+
+<h1 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h1><p>使用JDK1.8，在Windows系统里配置到Environment文件夹中，并添加path路径</p>
+<p>JAVA_HOME ：路径</p>
+<p>并将%JAVA_HOME%\bin以及%JAVA_HOME%\jre\bin添加到系统变量</p>
+<p>在终端输入java -version</p>
+<h1 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h1><p>软件采用IDEA，可以开发Java、Android及其他。在 <a href="https://www.jetbrains.com/">https://www.jetbrains.com/</a> 下载2020.1版即可。</p>
+<h1 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h1><p>简写使用：psvm召唤</p>
+<p><code>public static void main&#123;&#125;</code></p>
+<h1 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h1><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><h3 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a>单行注释</h3><p>//balabala</p>
+<h3 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a>多行注释</h3><p>/*</p>
+<p>bala</p>
+<p>bala</p>
+<p>Bala</p>
+<p>*/</p>
+<h3 id="文档注释"><a href="#文档注释" class="headerlink" title="文档注释"></a>文档注释</h3><p>/**</p>
+<p>*balabala</p>
+<p>*balabala</p>
+<p>*@Description 类名</p>
+<p>*@Author 作者</p>
+<p>*/</p>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>整数：byte  1字节；short 2字节；int 4字节；long 8字节； </p>
+<p>浮点数：float 4字节；double 8字节；</p>
+<p>字符类：char 2字节；</p>
+<p>引用数据类型：类；接口；数组；</p>
+]]></content>
+        
+        <categories>
+            
+            <category> 编程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
         <title><![CDATA[Algorithm System Modeling of Neural Network Hardware Acceleration System]]></title>
         <url>https://jiazhescholar.github.io/2018/06/02/nnhc/</url>
         <content type="html"><![CDATA[<p>Abstract</p>
@@ -37,7 +148,7 @@
         
         <categories>
             
-            <category> Research </category>
+            <category> 科研成果 </category>
             
         </categories>
         
@@ -58,7 +169,7 @@
 </blockquote>
 <a id="more"></a>  
 
-<p>First Step</p>
+<p>First Step 第一步</p>
 <blockquote>
 <p>Research on calibration of infrared binocular camera， epipolar rectification and its improvement</p>
 </blockquote>
@@ -144,7 +255,7 @@
         
         <categories>
             
-            <category> Research </category>
+            <category> 科研成果 </category>
             
         </categories>
         
@@ -188,7 +299,7 @@
         
         <categories>
             
-            <category> Science and Technology Competition </category>
+            <category> 科技竞赛 </category>
             
         </categories>
         
@@ -252,12 +363,19 @@
 </blockquote>
 <a href="/2017/06/25/sido/sun.pdf" title="The pdf file of this publication">The pdf file of this publication</a>
 
-<div class="pdf-container" data-target="sun.pdf" data-height="500px"></div>
+
+
+	<div class="row">
+    <embed src="sun.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
 ]]></content>
         
         <categories>
             
-            <category> Research </category>
+            <category> 科研成果 </category>
             
         </categories>
         
@@ -288,7 +406,7 @@
         
         <categories>
             
-            <category> Science and Technology Competition </category>
+            <category> 科技竞赛 </category>
             
         </categories>
         

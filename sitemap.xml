@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jiazhescholar.github.io/2021/05/12/java002/</loc>
+    
+    <lastmod>2021-05-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2021/05/08/java005/</loc>
+    
+    <lastmod>2021-05-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2021/05/07/java001/</loc>
+    
+    <lastmod>2021-05-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2017/01/22/bs2/</loc>
+    
+    <lastmod>2021-05-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2017/08/12/bs3/</loc>
+    
+    <lastmod>2021-05-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2017/09/21/surface3d/</loc>
+    
+    <lastmod>2021-05-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2017/06/25/sido/</loc>
+    
+    <lastmod>2021-05-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/2018/06/02/nnhc/</loc>
+    
+    <lastmod>2021-05-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jiazhescholar.github.io/categories/index.html</loc>
     
     <lastmod>2020-12-21</lastmod>
@@ -15,45 +71,10 @@
     
   </url>
   
-  <url>
-    <loc>https://jiazhescholar.github.io/2017/09/21/surface3d/</loc>
-    
-    <lastmod>2020-12-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jiazhescholar.github.io/2017/06/25/sido/</loc>
-    
-    <lastmod>2020-12-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jiazhescholar.github.io/2018/06/02/nnhc/</loc>
-    
-    <lastmod>2020-12-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jiazhescholar.github.io/2017/08/12/bs3/</loc>
-    
-    <lastmod>2020-12-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jiazhescholar.github.io/2017/01/22/bs2/</loc>
-    
-    <lastmod>2020-12-21</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://jiazhescholar.github.io/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,35 +82,42 @@
   
   <url>
     <loc>https://jiazhescholar.github.io/tags/Data-Analysis/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://jiazhescholar.github.io/tags/Simulation-MATLAB/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://jiazhescholar.github.io/tags/Robots/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://jiazhescholar.github.io/tags/Neural-Network/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://jiazhescholar.github.io/tags/Image-Processing/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <lastmod>2021-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/tags/Java/</loc>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -97,15 +125,22 @@
 
   
   <url>
-    <loc>https://jiazhescholar.github.io/categories/Science-and-Technology-Competition/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <loc>https://jiazhescholar.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jiazhescholar.github.io/categories/Research/</loc>
-    <lastmod>2021-05-06</lastmod>
+    <loc>https://jiazhescholar.github.io/categories/%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C/</loc>
+    <lastmod>2021-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiazhescholar.github.io/categories/%E7%A7%91%E6%8A%80%E7%AB%9E%E8%B5%9B/</loc>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
