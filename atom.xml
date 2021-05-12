@@ -6,7 +6,7 @@
   <link href="https://jiazhescholar.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiazhescholar.github.io/"/>
-  <updated>2021-05-12T15:22:01.235Z</updated>
+  <updated>2021-05-12T15:45:29.280Z</updated>
   <id>https://jiazhescholar.github.io/</id>
   
   <author>
@@ -21,14 +21,16 @@
     <link href="https://jiazhescholar.github.io/2021/05/12/java002/"/>
     <id>https://jiazhescholar.github.io/2021/05/12/java002/</id>
     <published>2021-05-12T15:18:09.000Z</published>
-    <updated>2021-05-12T15:22:01.235Z</updated>
+    <updated>2021-05-12T15:45:29.280Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1><p>结合《泛型》，可以有</p><p>List集合——工具类collections</p><p>Set集合——工具类collections</p><p>Map集合</p><p>学习集合即是学习遍历方式，包括：</p><ol><li>普通for循环</li><li>增强for循环</li><li>迭代器</li></ol><img src="/2021/05/12/java002/000.png" class="" title="学习方法">]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;集合&quot;&gt;&lt;a href=&quot;#集合&quot; class=&quot;headerlink&quot; title=&quot;集合&quot;&gt;&lt;/a&gt;集合&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;集合&quot;&gt;&lt;a href=&quot;#集合&quot; class=&quot;headerlink&quot; title=&quot;集合&quot;&gt;&lt;/a&gt;集合&lt;/h1&gt;&lt;p&gt;结合《泛型》，可以有&lt;/p&gt;
+&lt;p&gt;List集合——工具类collections&lt;/p&gt;
+&lt;p&gt;Set集合——工具类collections&lt;</summary>
       
     
     
